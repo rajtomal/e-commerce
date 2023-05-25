@@ -1,8 +1,28 @@
 /*================Here is all SCSS imported=================*/
-.base {
-  width: 100%;
+.navigation-ber-part {
+  padding: 10px 0;
+  background: #F0F2EE;
+}
+.navigation-ber-part .navbar-brand img {
+  max-width: 50px;
+}
+.navigation-ber-part .card-item {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
 
-.tomal {
-  width: 10px;
+@media screen and (max-width: 767px) {
+  .card-item {
+    position: fixed;
+    top: 15px;
+    right: 95px;
+  }
+}
+@media screen and (min-width: 767px) and (max-width: 1023px) {
+  .card-item {
+    position: fixed;
+    top: 15px;
+    right: 140px;
+  }
 }/*# sourceMappingURL=styles.css.map */
